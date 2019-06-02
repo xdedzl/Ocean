@@ -40,15 +40,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: 55ee2380f5a4dbf42931f0bf400a6a75, type: 3}
+        m_Texture: {fileID: 2800000, guid: 56f656311cd64244b8086a2f588886dc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: deeeedcef7b62c745a9434fa6743c1fa, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8b8591ca98dcb58409c868113d0c01ce, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: eef1ccec30c05a0498848d33252b7402, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -64,8 +68,10 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FlowOffset: 0
+    - _FlowStrength: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0.7
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -73,9 +79,13 @@ Material:
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 0.5
     - _SrcBlend: 1
+    - _Tilling: 3
+    - _UJump: 0
     - _UVSec: 0
+    - _VJump: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
