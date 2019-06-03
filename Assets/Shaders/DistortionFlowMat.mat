@@ -23,6 +23,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DerivHeightMap:
+        m_Texture: {fileID: 2800000, guid: f6f727216834a8844bbef3981395d4cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: 56f656311cd64244b8086a2f588886dc, type: 3}
+        m_Texture: {fileID: 2800000, guid: d2566cdb71f22a64fbf2587999535af1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -69,10 +73,12 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _FlowOffset: 0
-    - _FlowStrength: 0
+    - _FlowStrength: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.7
     - _GlossyReflections: 1
+    - _HeightScale: 0.1
+    - _HeightScaleModulated: 9
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -81,6 +87,7 @@ Material:
     - _SpecularHighlights: 1
     - _Speed: 0.5
     - _SrcBlend: 1
+    - _Tiling: 4
     - _Tilling: 3
     - _UJump: 0
     - _UVSec: 0
